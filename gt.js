@@ -29,7 +29,8 @@ var salary=1500;
 var bonus;
 
 if (salary>=2000){console.log(bonus=0)}
-else if (salary<2000){console.log(bonus=salary*0.1)};   /* if -ის გარეშე რო ვწერ ერორდება */ 
+else console.log(bonus=salary*0.1)
+//else if (salary<2000){console.log(bonus=salary*0.1)};   /* if -ის გარეშე რო ვწერ ერორდება */ 
 
 /* 6 */ 
 
@@ -37,7 +38,7 @@ var a=23;
 var b=a/2;
 var c=a+b;
 
-console.log(c)
+console.log(c)    
 
 /* 7 */ 
 
