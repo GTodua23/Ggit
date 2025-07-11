@@ -65,14 +65,14 @@ let student ={
     age:25,
     scores: [4,7,5,3,2],
     fullname(){ 
-//       return this.firstName +" "+ this.lastName;
-console.log (this.firstName+" "+this.lastName)
+      return this.firstName +" "+ this.lastName;
+
     }
 }
 
 // 6. დაბეჭდეთ  სტუდენტის სრული სახელი (სახელი+გვარი-  გამოიყენეთ student ობიექტის მეთოდი)
-student.fullname()
-//console.log(student.fullname())
+
+console.log(student.fullname())
 
 // 7. Დაწერეთ ფუნქცია რომელსაც გადასცემთ სტუდენტის ქულებს ( scores) და ფუნქცია დააბრუნებს  ქულების ჯამს
 
@@ -87,5 +87,5 @@ console.log(sum(student.scores));
 
 // 8. დაბეჭდეთ სტუდენტის სახელი და ასაკი
 
-student.fullname()
-console.log(student.age);
+
+console.log(student.fullname(),student.age);
